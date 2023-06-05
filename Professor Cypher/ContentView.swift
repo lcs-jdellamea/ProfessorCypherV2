@@ -9,44 +9,48 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            
-            Group {
-                
-                HStack {
-                    Text("PROFESSOR CYPHER")
-                        .font(.system(size: 30.0))
+        NavigationView{
+            List{
+                VStack {
                     
+                    Group {
+                        
+                        HStack {
+                            Text("PROFESSOR CYPHER")
+                                .font(.system(size: 30.0))
+                            
+                        }
+                        Divider()
+                        Image("Hieroglyphics")
+                            .resizable()
+                            .scaledToFit()
+                        Divider()
+                        Divider()
+                        
+                    }
+                    HStack{
+                        Text("Transposition Ciphers")
+                            .font(.system(size: 25))
+                    }
+                    
+                    Group{
+                        Divider()
+                        Divider()
+                        HStack{
+                            Button("Rail Fence Cipher") {print("Placeholder")}
+                                .font(.system(size:20))
+                        }
+                        Divider()
+                        Image("RailFenceCypher")
+                            .resizable()
+                            .scaledToFit()
+                    }
+                    
+                    Text("Information Sourced from Martin Gardner's 'Codes, Ciphers and Secret Writing'")
+                        .font(.system(size:10))
+                    Spacer()
                 }
-                Divider()
-                Image("Hieroglyphics")
-                    .resizable()
-                    .scaledToFit()
-                Divider()
-                Divider()
-
             }
-            HStack{
-                Text("Transposition Ciphers")
-                    .font(.system(size: 25))
-            }
-            
-            Group{
-                Divider()
-                Divider()
-                HStack{
-                    Text("Rail Fence Cipher")
-                        .font(.system(size:20))
-                }
-                Divider()
-                Image("RailFenceCypher")
-                    .resizable()
-                    .scaledToFit()
-            }
-            
-            Text("Information Sourced from Martin Gardner's 'Codes, Ciphers and Secret Writing'")
-                .font(.system(size:9))
-            Spacer()
         }
         
     }
