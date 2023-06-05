@@ -10,12 +10,40 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            
+            Group {
+                
+                HStack {
+                    Text("PROFESSOR CYPHER")
+                        .font(.system(size: 30.0))
+                    
+                }
+                Divider()
+                Image("Hieroglyphics")
+                    .resizable()
+                    .scaledToFit()
+                Divider()
+                Divider()
+
+            }
+            HStack{
+                Text("Transposition Ciphers")
+                    .font(.system(size: 25))
+            }
+            Divider()
+            Divider()
+            HStack{
+                Text("Rail Fence Cipher")
+                    .font(.system(size:20))
+            }
+            Divider()
+            Image("RailFenceCypher")
+                .resizable()
+                .scaledToFit()
+            
+            Spacer()
         }
-        .padding()
+        
     }
 }
 
@@ -24,3 +52,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
