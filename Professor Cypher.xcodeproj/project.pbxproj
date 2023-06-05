@@ -12,6 +12,7 @@
 		6F98ADCD2A2E15190013BC04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F98ADCC2A2E15190013BC04 /* Preview Assets.xcassets */; };
 		6F98ADD42A2E194E0013BC04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F98ADD32A2E194E0013BC04 /* ContentView.swift */; };
 		6F98ADD62A2E19890013BC04 /* Bebas_Neue.zip in Resources */ = {isa = PBXBuildFile; fileRef = 6F98ADD52A2E19890013BC04 /* Bebas_Neue.zip */; };
+		6F98ADD92A2EA8C70013BC04 /* RailFenceCipherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F98ADD82A2EA8C70013BC04 /* RailFenceCipherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		6F98ADCC2A2E15190013BC04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F98ADD32A2E194E0013BC04 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6F98ADD52A2E19890013BC04 /* Bebas_Neue.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Bebas_Neue.zip; sourceTree = "<group>"; };
+		6F98ADD82A2EA8C70013BC04 /* RailFenceCipherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailFenceCipherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				6F98ADC52A2E15170013BC04 /* Professor_CypherApp.swift */,
 				6F98ADD32A2E194E0013BC04 /* ContentView.swift */,
+				6F98ADD82A2EA8C70013BC04 /* RailFenceCipherView.swift */,
 				6F98ADC92A2E15190013BC04 /* Assets.xcassets */,
 				6F98ADCB2A2E15190013BC04 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			files = (
 				6F98ADD42A2E194E0013BC04 /* ContentView.swift in Sources */,
 				6F98ADC62A2E15170013BC04 /* Professor_CypherApp.swift in Sources */,
+				6F98ADD92A2EA8C70013BC04 /* RailFenceCipherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
