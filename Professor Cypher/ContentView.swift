@@ -30,17 +30,22 @@ struct ContentView: View {
                 Text("Transposition Ciphers")
                     .font(.system(size: 25))
             }
-            Divider()
-            Divider()
-            HStack{
-                Text("Rail Fence Cipher")
-                    .font(.system(size:20))
-            }
-            Divider()
-            Image("RailFenceCypher")
-                .resizable()
-                .scaledToFit()
             
+            Group{
+                Divider()
+                Divider()
+                HStack{
+                    Text("Rail Fence Cipher")
+                        .font(.system(size:20))
+                }
+                Divider()
+                Image("RailFenceCypher")
+                    .resizable()
+                    .scaledToFit()
+            }
+            
+            Text("Information Sourced from Martin Gardner's 'Codes, Ciphers and Secret Writing'")
+                .font(.system(size:9))
             Spacer()
         }
         
