@@ -10,38 +10,36 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView{
-            List{
-                VStack {
+            VStack {
+                
+                Group {
                     
-                    Group {
+                    HStack {
+                        Text("PROFESSOR CYPHER")
+                            .font(.system(size: 30.0))
                         
-                        HStack {
-                            Text("PROFESSOR CYPHER")
-                                .font(.system(size: 30.0))
-                            
-                        }
-                        Divider()
-                        Image("Hieroglyphics")
+                    }
+                    Divider()
+                    Image("Hieroglyphics")
+                        .resizable()
+                        .scaledToFit()
+                    Divider()
+                    Divider()
+                    
+                }
+                Group{
+                    List{
+                        Button("Rail Fence Cipher") {print("Placeholder1")}
+                            .font(.system(size:20))
+                        
+                        Image("RailFenceCipher")
                             .resizable()
                             .scaledToFit()
-                        Divider()
-                        Divider()
                         
-                    }
-                    HStack{
-                        Text("Transposition Ciphers")
-                            .font(.system(size: 25))
-                    }
-                    
-                    Group{
-                        Divider()
-                        Divider()
-                        HStack{
-                            Button("Rail Fence Cipher") {print("Placeholder")}
-                                .font(.system(size:20))
-                        }
-                        Divider()
-                        Image("RailFenceCypher")
+                        Button("Twisted Path Cipher") {print("Placeholder2")}
+                            .font(.system(size:20))
+                        
+                        Image("TwistedPathCipher")
                             .resizable()
                             .scaledToFit()
                     }
@@ -51,8 +49,8 @@ struct ContentView: View {
                     Spacer()
                 }
             }
+            .font(.system(size: 25))
         }
-        
     }
 }
 
