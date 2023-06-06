@@ -13,11 +13,11 @@ struct RailFenceCipherView: View {
             Text("Rail Fence Cipher")
                 .font(.system(size: 30))
             Divider()
-            
+            List{
             Image("RailFenceCipher")
                 .resizable()
                 .scaledToFit()
-            Divider()
+
             VStack{
                 HStack{
                     Text("The Rail Fence Cipher was created by the Greeks. They also had a special tool called a scytale that helped them to decode their messages to the spartans during military campagns. Now, it is usually written on regular paper and decoded without any special tools required. ")
@@ -28,8 +28,24 @@ struct RailFenceCipherView: View {
                     Text("Decoding")
                         .font(.system(size:30))
                     Divider()
-                    Text("To decode this cipher, you must first split the sequence of letters directly in half with a vertical line. Now you simply need to read the message while crossing off the letters you have read. To read this Cipher, you alternate between the left-most letter on the left half and the left-most letter on the right half. If done correctly, you should have discovered the hidden message.")
                         .font(.system(size: 18))
+                                        Image("RailFenceCipherEX1")
+                                            .resizable()
+                                            .scaledToFit()
+                    Divider()
+                    Text("To decode this cipher, you must first split the sequence of letters directly in half with a vertical line.")
+                                        Image("RailFenceCipherEX2")
+                                            .resizable()
+                                            .scaledToFit()
+                    Text("Now you need to read the message while crossing off the letters you have read.")
+                                        Image("RailFenceCipherEX3")
+                                            .resizable()
+                                            .scaledToFit()
+                    Text("To read this Cipher, you alternate between the left-most letter on the left half and the left-most letter on the right half. If done correctly, you should have discovered the hidden message.")
+                                        Image("RailFenceCipherEX4")
+                                            .resizable()
+                                            .scaledToFit()
+                }
                 }
             }
             Spacer()
