@@ -20,8 +20,8 @@ struct RailFenceCipherView: View {
             Divider()
             VStack{
                 HStack{
-                    Text("The Rail Fence Cipher was created by the Greeks. They also created special tool called a scytale that helped them to decode their messages to the spartans during military campagns. Now a days it is usually written on regular paper and decoded without any assistance necissary. ")
-                        .font(.system(size: 18))
+                    Text("The Rail Fence Cipher was created by the Greeks. They also had a special tool called a scytale that helped them to decode their messages to the spartans during military campagns. Now, it is usually written on regular paper and decoded without any special tools required. ")
+                        .font(.system(size: 17.7))
                 }
                 Divider()
                 VStack{

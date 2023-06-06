@@ -35,7 +35,7 @@ struct ContentView: View {
                         Button("Twisted Path Cipher") {print("Placeholder2")}
                             .font(.system(size:20))
                         
-                        Image("TwistedPathCipher")
+                        Image("TEMP!(2)")
                             .resizable()
                             .scaledToFit()
                     }
