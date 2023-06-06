@@ -23,7 +23,14 @@ struct RailFenceCipherView: View {
                     Text("The Rail Fence Cipher was created by the Greeks. They also created special tool called a scytale that helped them to decode their messages to the spartans during military campagns. Now a days it is usually written on regular paper and decoded without any assistance necissary. ")
                         .font(.system(size: 18))
                 }
-            Divider()
+                Divider()
+                VStack{
+                    Text("Decoding")
+                        .font(.system(size:30))
+                    Divider()
+                    Text("To decode this cipher, you must first split the sequence of letters directly in half with a vertical line. Now you simply need to read the message while crossing off the letters you have read. To read this Cipher, you alternate between the left-most letter on the left half and the left-most letter on the right half. If done correctly, you should have discovered the hidden message.")
+                        .font(.system(size: 18))
+                }
             }
             Spacer()
             Divider()
