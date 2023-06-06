@@ -17,18 +17,14 @@ struct ContentView: View {
                     HStack {
                         Text("PROFESSOR CYPHER")
                             .font(.system(size: 30.0))
-                        
                     }
-                    Divider()
-                    Image("Hieroglyphics")
-                        .resizable()
-                        .scaledToFit()
-                    Divider()
-                    Divider()
-                    
                 }
+                List{
+                Image("Hieroglyphics")
+                    .resizable()
+                    .scaledToFit()
+                
                 Group{
-                    List{
                         Button("Rail Fence Cipher") {print("Placeholder1")}
                             .font(.system(size:20))
                         
