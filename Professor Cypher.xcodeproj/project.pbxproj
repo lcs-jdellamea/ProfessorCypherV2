@@ -13,6 +13,7 @@
 		6F98ADD42A2E194E0013BC04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F98ADD32A2E194E0013BC04 /* ContentView.swift */; };
 		6F98ADD62A2E19890013BC04 /* Bebas_Neue.zip in Resources */ = {isa = PBXBuildFile; fileRef = 6F98ADD52A2E19890013BC04 /* Bebas_Neue.zip */; };
 		6F98ADD92A2EA8C70013BC04 /* RailFenceCipherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F98ADD82A2EA8C70013BC04 /* RailFenceCipherView.swift */; };
+		6F98ADDB2A3207300013BC04 /* Bebas_Neue.zip in Resources */ = {isa = PBXBuildFile; fileRef = 6F98ADDA2A3207300013BC04 /* Bebas_Neue.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		6F98ADD32A2E194E0013BC04 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6F98ADD52A2E19890013BC04 /* Bebas_Neue.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Bebas_Neue.zip; sourceTree = "<group>"; };
 		6F98ADD82A2EA8C70013BC04 /* RailFenceCipherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RailFenceCipherView.swift; sourceTree = "<group>"; };
+		6F98ADDA2A3207300013BC04 /* Bebas_Neue.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Bebas_Neue.zip; sourceTree = "<group>"; };
+		6F98ADDC2A3209480013BC04 /* Professor-Cypher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Professor-Cypher-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +42,7 @@
 		6F98ADB92A2E15160013BC04 = {
 			isa = PBXGroup;
 			children = (
+				6F98ADDA2A3207300013BC04 /* Bebas_Neue.zip */,
 				6F98ADC42A2E15170013BC04 /* Professor Cypher */,
 				6F98ADC32A2E15170013BC04 /* Products */,
 			);
@@ -55,6 +59,7 @@
 		6F98ADC42A2E15170013BC04 /* Professor Cypher */ = {
 			isa = PBXGroup;
 			children = (
+				6F98ADDC2A3209480013BC04 /* Professor-Cypher-Info.plist */,
 				6F98ADC52A2E15170013BC04 /* Professor_CypherApp.swift */,
 				6F98ADD32A2E194E0013BC04 /* ContentView.swift */,
 				6F98ADD82A2EA8C70013BC04 /* RailFenceCipherView.swift */,
@@ -131,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F98ADDB2A3207300013BC04 /* Bebas_Neue.zip in Resources */,
 				6F98ADCD2A2E15190013BC04 /* Preview Assets.xcassets in Resources */,
 				6F98ADCA2A2E15190013BC04 /* Assets.xcassets in Resources */,
 				6F98ADD62A2E19890013BC04 /* Bebas_Neue.zip in Resources */,
@@ -277,6 +283,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Professor Cypher/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Professor-Cypher-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,6 +312,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Professor Cypher/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Professor-Cypher-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

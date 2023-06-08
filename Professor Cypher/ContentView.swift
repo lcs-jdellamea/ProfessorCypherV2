@@ -16,7 +16,7 @@ struct ContentView: View {
                     
                     HStack {
                         Text("PROFESSOR CYPHER")
-                            .font(.system(size: 30.0))
+                            .font(.custom("Bebas_Neue", size: 30.0))
                     }
                 }
                 List{
