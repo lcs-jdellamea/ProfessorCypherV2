@@ -20,14 +20,19 @@ struct ContentView: View {
                     }
                 }
                 List{
-                Image("Hieroglyphics")
-                    .resizable()
-                    .scaledToFit()
-                
-                Group{
-                        Button("Rail Fence Cipher") {print("Placeholder1")}
-                            .font(.system(size:20))
+                    Image("Hieroglyphics")
+                        .resizable()
+                        .scaledToFit()
+                    
+                    VStack{
+                        NavigationView {
+                            NavigationLink(destination: RailFenceCipherView()) {
+                                Text("Rail Fence Cipher")
+                            }
+                        }
                         
+                    }
+                    Group{
                         Image("RailFenceCipher")
                             .resizable()
                             .scaledToFit()
