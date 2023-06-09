@@ -25,11 +25,9 @@ struct ContentView: View {
                         .scaledToFit()
                     
                     VStack{
-                        NavigationView {
                             NavigationLink(destination: RailFenceCipherView()) {
                                 Text("Rail Fence Cipher")
                             }
-                        }
                         
                     }
                     Group{
