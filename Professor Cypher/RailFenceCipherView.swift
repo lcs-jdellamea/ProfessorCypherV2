@@ -50,8 +50,7 @@ struct RailFenceCipherView: View {
             }
             Spacer()
             Divider()
-            Button("Back") {print("back")}
-                .font(.system(size:20))
+            }
         }
     }
 }
