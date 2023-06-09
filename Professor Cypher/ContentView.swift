@@ -35,9 +35,11 @@ struct ContentView: View {
                             .resizable()
                             .scaledToFit()
                         
-                        Button("Twisted Path Cipher") {print("Placeholder2")}
-                            .font(.system(size:20))
-                        
+                        VStack{
+                            NavigationLink(destination: TwistedPathCipherView()) {
+                                Text("Twisted Path Cipher (WIP)")
+                            }
+                        }
                         Image("TEMP!(2)")
                             .resizable()
                             .scaledToFit()
